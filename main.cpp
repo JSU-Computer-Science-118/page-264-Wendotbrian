@@ -6,7 +6,8 @@ int main()
   int num;
   
 cin >> num;
-if(num>1&&num<=1000)
+if(num>=1&&num<=1000)
+  if(num!=1)
 if(!(num%2==0||num%3==0||num%5==0||num%7==0||num%11==0||num%13==0||num%17==0||num%19==0||num%23==0||num%29==0||num%31==0))
 { cout << "Number " << num << " is prime!";}
   else
