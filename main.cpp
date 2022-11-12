@@ -7,7 +7,10 @@ int main()
   
 cin >> num;
 if(num>=1&&num<=1000)
-  if(num!=1)
+  if(num==1)
+  { cout << "2 3 5 7 13 17 19 23 29 31";}
+  else
+  {
 if(!(num%2==0||num%3==0||num%5==0||num%7==0||num%11==0||num%13==0||num%17==0||num%19==0||num%23==0||num%29==0||num%31==0))
 { cout << "Number " << num << " is prime!";}
   else
@@ -55,6 +58,6 @@ if (num==29)
     cout << "Number " << num << " is prime!";
 if (num==31)
     cout << "Number " << num << " is prime!";
-  else
+  }
   return 0;
 }
